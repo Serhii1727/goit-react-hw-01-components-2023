@@ -1,6 +1,5 @@
-import PropTypes from 'prop-types';
 import Profile from './Profile';
-import user from '../user.json';
+import user from '../services/user';
 
 export const App = () => {
   return (
