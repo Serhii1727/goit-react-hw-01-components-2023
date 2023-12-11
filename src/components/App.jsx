@@ -1,8 +1,7 @@
-import { Fragment } from 'react';
-import Profile from './Profile';
-import Statistics from './Statistics';
-import FriendList from './FriendList';
-import TransactionHistory from './TransactionHistory';
+import Profile from './Profile/Profile';
+import Statistics from './Statistics/Statistics';
+import FriendList from './FriendList/FriendList';
+import TransactionHistory from './TransactionHistory/TransactionHistory';
 import user from '../services/user';
 import data from '../services/data';
 import friends from '../services/friends';
